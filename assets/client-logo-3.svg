@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="60" viewBox="0 0 150 60">
+  <rect width="150" height="60" fill="none"/>
+  <polygon points="35,20 35,40 75,40 75,20" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <polygon points="75,20 75,40 115,40 115,20" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <polygon points="55,15 55,20 55,40 55,45 95,45 95,40 95,20 95,15" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <text x="75" y="33" font-family="Arial" font-size="12" fill="#aaaaaa" text-anchor="middle">LOGIX</text>
+</svg> 

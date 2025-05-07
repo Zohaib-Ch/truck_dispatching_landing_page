@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="60" viewBox="0 0 150 60">
+  <rect width="150" height="60" fill="none"/>
+  <path d="M30,30 L40,20 L120,20 L120,40 L30,40 Z" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <rect x="40" y="40" width="20" height="10" rx="5" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <rect x="90" y="40" width="20" height="10" rx="5" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <path d="M120,25 L130,25 L130,35 L120,35 Z" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <text x="60" y="34" font-family="Arial" font-size="12" fill="#aaaaaa">FREIGHT</text>
+</svg> 

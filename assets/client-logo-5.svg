@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="60" viewBox="0 0 150 60">
+  <rect width="150" height="60" fill="none"/>
+  <rect x="35" y="15" width="80" height="30" rx="5" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <line x1="50" y1="15" x2="50" y2="45" stroke="#aaaaaa" stroke-width="2"/>
+  <line x1="70" y1="15" x2="70" y2="45" stroke="#aaaaaa" stroke-width="2"/>
+  <line x1="90" y1="15" x2="90" y2="45" stroke="#aaaaaa" stroke-width="2"/>
+  <line x1="35" y1="30" x2="115" y2="30" stroke="#aaaaaa" stroke-width="2"/>
+  <text x="75" y="55" font-family="Arial" font-size="10" fill="#aaaaaa" text-anchor="middle">CROSS COUNTRY SHIPPING</text>
+</svg> 

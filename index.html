@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruckPro | Advanced Logistics Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Add modern icon set -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Enhanced Splash Screen -->
+    <div class="splash-screen" id="splash-screen">
+        <div class="grid-background">
+            <div class="grid-line horizontal"></div>
+            <div class="grid-line horizontal"></div>
+            <div class="grid-line horizontal"></div>
+            <div class="grid-line horizontal"></div>
+            <div class="grid-line horizontal"></div>
+            <div class="grid-line vertical"></div>
+            <div class="grid-line vertical"></div>
+            <div class="grid-line vertical"></div>
+            <div class="grid-line vertical"></div>
+            <div class="grid-line vertical"></div>
+        </div>
+        
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="splash-glass">
+            <div class="splash-content">
+                <div class="logo-container">
+                    <div class="logo-glow"></div>
+                    <h1 class="logo">TRUCK<span>PRO</span>
+                        <div class="logo-underline"></div>
+                    </h1>
+                </div>
+                <div class="tagline">Logistics Reimagined</div>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="loader-progress"></div>
+                </div>
+                
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="floating-shapes">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+            <div class="shape shape4"></div>
+            <div class="shape shape5"></div>
+            <div class="shape shape6"></div>
+        </div>
+        
+        <svg class="splash-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="path-animation" d="M0,0 L100,0 L100,100 L0,100 Z" fill="none" stroke="#00f6ff" stroke-width="0.2"></path>
+        </svg>
+        
+        <div class="corner-borders">
+            <div class="corner top-left"></div>
+            <div class="corner top-right"></div>
+            <div class="corner bottom-left"></div>
+            <div class="corner bottom-right"></div>
+        </div>
+    </div>
+
+    <!-- Main Content (Hidden until splash screen completes) -->
+    <main class="main-content" style="display: none;">
+        <!-- Header/Navbar Section -->
+        <header class="header" id="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="logo-container">
+                        <a href="#home" class="logo">
+                            <span class="logo-text">TRUCK<span class="highlight">PRO</span></span>
+                            <div class="logo-glow-sm"></div>
+                        </a>
+                    </div>
+                    
+                    <div class="nav-toggle" id="nav-toggle">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    
+                    <ul class="nav-menu" id="nav-menu">
+                        <li class="nav-item"><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link" data-section="about">About</a></li>
+                        <li class="nav-item"><a href="#services" class="nav-link" data-section="services">Services</a></li>
+                        <li class="nav-item"><a href="#pricing" class="nav-link" data-section="pricing">Pricing</a></li>
+                        <li class="nav-item"><a href="#team" class="nav-link" data-section="team">Team</a></li>
+                        <li class="nav-item"><a href="#blog" class="nav-link" data-section="blog">Blog</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="hero-bg">
+                <div class="gradient-overlay"></div>
+                <div class="particles-container">
+                    <div class="particle p1"></div>
+                    <div class="particle p2"></div>
+                    <div class="particle p3"></div>
+                    <div class="particle p4"></div>
+                    <div class="particle p5"></div>
+                    <div class="particle p6"></div>
+                    <div class="particle p7"></div>
+                    <div class="particle p8"></div>
+                    <div class="particle p9"></div>
+                    <div class="particle p10"></div>
+                </div>
+                <div class="svg-wave">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                        <path class="wave-path" d="M0,192L48,202.7C96,213,192,235,288,224C384,213,480,171,576,165.3C672,160,768,192,864,197.3C960,203,1056,181,1152,170.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                    </svg>
+                </div>
+            </div>
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-text animate-on-scroll" data-animation="fade-in-up">
+                        <h1 class="hero-title">
+                            <span class="static-text">Your Trusted </span>
+                            <span class="typing-text"></span>
+                            <span class="cursor">|</span>
+                        </h1>
+                        <p class="hero-description animate-on-scroll" data-animation="fade-in-up" data-delay="500">
+                            We connect carriers with shippers across the nation, providing reliable dispatch services and maximizing your fleet's efficiency and profitability.
+                        </p>
+                        <div class="cta-container animate-on-scroll" data-animation="fade-in-up" data-delay="800">
+                            <a href="#contact" class="btn btn-primary btn-glow">Get Started</a>
+                            <a href="#services" class="btn btn-outline">Explore Services</a>
+                        </div>
+                        
+                        <div class="stats-container">
+                            <div class="stat-item animate-on-scroll" data-animation="fade-in-up" data-delay="1000">
+                                <span class="stat-number">5000+</span>
+                                <span class="stat-text">Loads Dispatched</span>
+                            </div>
+                            <div class="stat-item animate-on-scroll" data-animation="fade-in-up" data-delay="1100">
+                                <span class="stat-number">98%</span>
+                                <span class="stat-text">Client Satisfaction</span>
+                            </div>
+                            <div class="stat-item animate-on-scroll" data-animation="fade-in-up" data-delay="1200">
+                                <span class="stat-number">24/7</span>
+                                <span class="stat-text">Support</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image-container animate-on-scroll" data-animation="fade-in-left">
+                        <div class="floating-element dot dot1"></div>
+                        <div class="floating-element dot dot2"></div>
+                        <div class="floating-element dot dot3"></div>
+                        <div class="floating-element arrow arrow1"></div>
+                        <div class="floating-element arrow arrow2"></div>
+                        <div class="floating-element line line1"></div>
+                        <div class="floating-element line line2"></div>
+                        
+                        <div class="hero-image">
+                            <img src="assets/images/cargo-truck-png-4372.png" alt="Truck Dispatching Illustration" class="truck-image">
+                            <div class="image-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator" id="scroll-indicator">
+                <div class="scroll-text">Scroll Down</div>
+                <div class="scroll-arrow">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll" data-animation="fade-in-up">
+                    About Our Dispatching Excellence
+                    <span class="section-title-underline"></span>
+                </h2>
+                
+                <div class="about-container">
+                    <!-- Left Column (Image) -->
+                    <div class="about-image-container animate-on-scroll" data-animation="fade-in-right">
+                        <div class="image-wrapper">
+                            <div class="video-overlay">
+                                <i class="fas fa-play-circle play-icon" id="video-play-btn"></i>
+                            </div>
+                            <img src="assets/images/cargo-truck-png-4372.png" alt="TruckPro Dispatching Team" class="about-image">
+                            <div class="image-glow"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column (Content) -->
+                    <div class="about-content animate-on-scroll" data-animation="fade-in-left">
+                        <p class="about-intro">
+                            At TruckPro, we're dedicated to revolutionizing the trucking industry through advanced dispatching solutions that maximize efficiency, reduce costs, and ensure timely deliveries for carriers nationwide.
+                        </p>
+                        
+                        <div class="core-values">
+                            <div class="value-card glass animate-on-scroll" data-animation="fade-in-up" data-delay="100">
+                                <div class="value-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div class="value-content">
+                                    <h3>Fast Service</h3>
+                                    <p>Rapid load matching and real-time dispatching with industry-leading response times.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="value-card glass animate-on-scroll" data-animation="fade-in-up" data-delay="200">
+                                <div class="value-icon">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <div class="value-content">
+                                    <h3>24/7 Support</h3>
+                                    <p>Around-the-clock assistance from our dedicated dispatching team whenever you need it.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="value-card glass animate-on-scroll" data-animation="fade-in-up" data-delay="300">
+                                <div class="value-icon">
+                                    <i class="fas fa-route"></i>
+                                </div>
+                                <div class="value-content">
+                                    <h3>Route Optimization</h3>
+                                    <p>AI-powered route planning that saves fuel, reduces empty miles and maximizes earnings.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="value-card glass animate-on-scroll" data-animation="fade-in-up" data-delay="400">
+                                <div class="value-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="value-content">
+                                    <h3>Reliable Security</h3>
+                                    <p>Secure transactions and load verification protocols that protect carriers and shippers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Video Modal -->
+            <div class="video-modal" id="video-modal">
+                <div class="modal-content">
+                    <span class="close-modal" id="close-modal">&times;</span>
+                    <div class="video-container">
+                        <iframe id="video-frame" src="" title="TruckPro Dispatch Services" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Sections -->
+        <section id="services" class="section services-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll" data-animation="fade-in-up">
+                    Our Services
+                    <span class="section-title-underline"></span>
+                </h2>
+                
+                <div class="services-container animate-on-scroll" data-animation="fade-in-up" data-delay="200">
+                    <div class="service-card glass">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Load Finding</h3>
+                        <p>We help carriers find the most profitable loads through our extensive network of trusted partners and brokers.</p>
+                    </div>
+                    
+                    <div class="service-card glass">
+                        <div class="service-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>Rate Negotiation</h3>
+                        <p>Our expert dispatchers negotiate the best rates possible to maximize your profits on every load.</p>
+                    </div>
+                    
+                    <div class="service-card glass">
+                        <div class="service-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <h3>Paperwork Processing</h3>
+                        <p>We handle all your paperwork, invoicing, and document management so you can focus on driving.</p>
+                    </div>
+                    
+                    <div class="service-card glass">
+                        <div class="service-icon">
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <h3>Route Planning</h3>
+                        <p>Optimize your routes to save time, fuel, and maximize efficiency with our advanced routing tools.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="section pricing-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll" data-animation="fade-in-up">
+                    Our Pricing Plans
+                    <span class="section-title-underline"></span>
+                </h2>
+                
+                <div class="pricing-container">
+                    <!-- Starter Plan -->
+                    <div class="pricing-card glass animate-on-scroll" data-animation="fade-in-up" data-delay="100">
+                        <div class="pricing-header">
+                            <div class="plan-icon">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <h3 class="plan-name">Starter</h3>
+                            <div class="plan-price">
+                                <span class="currency">$</span>
+                                <span class="price-value" data-value="149">0</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Basic Load Matching</li>
+                                <li><i class="fas fa-check"></i> 5% Commission Rate</li>
+                                <li><i class="fas fa-check"></i> 24/7 Basic Support</li>
+                                <li><i class="fas fa-check"></i> Daily Payment Processing</li>
+                                <li><i class="fas fa-check"></i> Basic Reporting</li>
+                                <li class="not-included"><i class="fas fa-times"></i> Route Optimization</li>
+                                <li class="not-included"><i class="fas fa-times"></i> Fuel Card Integration</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pricing-cta">
+                            <a href="#contact" class="btn btn-outline btn-full">Choose Plan</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Standard Plan (Featured) -->
+                    <div class="pricing-card glass featured animate-on-scroll" data-animation="fade-in-up">
+                        <div class="featured-badge">Recommended</div>
+                        
+                        <div class="pricing-header">
+                            <div class="plan-icon">
+                                <i class="fas fa-truck-moving"></i>
+                            </div>
+                            <h3 class="plan-name">Standard</h3>
+                            <div class="plan-price">
+                                <span class="currency">$</span>
+                                <span class="price-value" data-value="249">0</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Premium Load Matching</li>
+                                <li><i class="fas fa-check"></i> 4% Commission Rate</li>
+                                <li><i class="fas fa-check"></i> 24/7 Priority Support</li>
+                                <li><i class="fas fa-check"></i> Same-Day Payment Processing</li>
+                                <li><i class="fas fa-check"></i> Advanced Reporting</li>
+                                <li><i class="fas fa-check"></i> Route Optimization</li>
+                                <li class="not-included"><i class="fas fa-times"></i> Fuel Card Integration</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pricing-cta">
+                            <a href="#contact" class="btn btn-primary btn-glow btn-full">Choose Plan</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Premium Plan -->
+                    <div class="pricing-card glass animate-on-scroll" data-animation="fade-in-up" data-delay="200">
+                        <div class="pricing-header">
+                            <div class="plan-icon">
+                                <i class="fas fa-truck-loading"></i>
+                            </div>
+                            <h3 class="plan-name">Premium</h3>
+                            <div class="plan-price">
+                                <span class="currency">$</span>
+                                <span class="price-value" data-value="349">0</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Premium Load Matching</li>
+                                <li><i class="fas fa-check"></i> 3% Commission Rate</li>
+                                <li><i class="fas fa-check"></i> 24/7 VIP Support</li>
+                                <li><i class="fas fa-check"></i> Instant Payment Processing</li>
+                                <li><i class="fas fa-check"></i> Real-time Analytics Dashboard</li>
+                                <li><i class="fas fa-check"></i> AI Route Optimization</li>
+                                <li><i class="fas fa-check"></i> Fuel Card Integration</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="pricing-cta">
+                            <a href="#contact" class="btn btn-outline btn-full">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-note animate-on-scroll" data-animation="fade-in-up" data-delay="300">
+                    <p>All plans include paperwork processing, invoicing, and basic accounting. <br>Need a custom solution? <a href="#contact" class="text-link">Contact us</a> for personalized pricing.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="section team-section">
+            <div class="grid-background">
+                <div class="grid-line horizontal"></div>
+                <div class="grid-line horizontal"></div>
+                <div class="grid-line horizontal"></div>
+                <div class="grid-line vertical"></div>
+                <div class="grid-line vertical"></div>
+                <div class="grid-line vertical"></div>
+            </div>
+            
+            <div class="diagonal-separator"></div>
+            
+            <div class="container">
+                <h2 class="section-title animate-on-scroll" data-animation="fade-in-up">
+                    <span class="reveal-text">Meet Our Experts</span>
+                    <span class="section-title-underline"></span>
+                </h2>
+                
+                <p class="section-description animate-on-scroll" data-animation="fade-in-up" data-delay="200">
+                    Our team of dedicated professionals brings years of experience in logistics and dispatching to help your business thrive.
+                </p>
+                
+                <div class="team-container">
+                    <!-- Team Member 1 -->
+                    <div class="team-card-wrapper animate-on-scroll" data-animation="fade-in-up" data-delay="300">
+                        <div class="team-card">
+                            <div class="team-card-inner">
+                                <!-- Front Side -->
+                                <div class="team-card-front">
+                                    <div class="member-photo">
+                                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Alex Morgan">
+                                    </div>
+                                    <h3>Alex Morgan</h3>
+                                    <p class="member-role">Dispatch Manager</p>
+                                    <div class="card-hover-hint">
+                                        <span>Click to learn more</span>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                
+                                <!-- Back Side -->
+                                <div class="team-card-back">
+                                    <h3>Alex Morgan</h3>
+                                    <p class="member-role">Dispatch Manager</p>
+                                    <p class="member-bio">
+                                        With over 10 years of experience in logistics and transport management, Alex leads our dispatch team with precision and expertise.
+                                    </p>
+                                    <div class="member-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">1200+</span>
+                                            <span class="stat-label">Loads</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">98%</span>
+                                            <span class="stat-label">On-time</span>
+                                        </div>
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 2 -->
+                    <div class="team-card-wrapper animate-on-scroll" data-animation="fade-in-up" data-delay="400">
+                        <div class="team-card">
+                            <div class="team-card-inner">
+                                <!-- Front Side -->
+                                <div class="team-card-front">
+                                    <div class="member-photo">
+                                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Sarah Johnson">
+                                    </div>
+                                    <h3>Sarah Johnson</h3>
+                                    <p class="member-role">Operations Director</p>
+                                    <div class="card-hover-hint">
+                                        <span>Click to learn more</span>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                
+                                <!-- Back Side -->
+                                <div class="team-card-back">
+                                    <h3>Sarah Johnson</h3>
+                                    <p class="member-role">Operations Director</p>
+                                    <p class="member-bio">
+                                        Sarah oversees all operational aspects of our business, ensuring smooth coordination between carriers, shippers, and our dispatch team.
+                                    </p>
+                                    <div class="member-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">15+</span>
+                                            <span class="stat-label">Years</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">250+</span>
+                                            <span class="stat-label">Clients</span>
+                                        </div>
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 3 -->
+                    <div class="team-card-wrapper animate-on-scroll" data-animation="fade-in-up" data-delay="500">
+                        <div class="team-card">
+                            <div class="team-card-inner">
+                                <!-- Front Side -->
+                                <div class="team-card-front">
+                                    <div class="member-photo">
+                                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Daniel Rodriguez">
+                                    </div>
+                                    <h3>Daniel Rodriguez</h3>
+                                    <p class="member-role">Customer Relations</p>
+                                    <div class="card-hover-hint">
+                                        <span>Click to learn more</span>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                
+                                <!-- Back Side -->
+                                <div class="team-card-back">
+                                    <h3>Daniel Rodriguez</h3>
+                                    <p class="member-role">Customer Relations</p>
+                                    <p class="member-bio">
+                                        Daniel is dedicated to ensuring our clients receive exceptional service and support throughout their journey with TruckPro.
+                                    </p>
+                                    <div class="member-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">24/7</span>
+                                            <span class="stat-label">Support</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">4.9</span>
+                                            <span class="stat-label">Rating</span>
+                                        </div>
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Team Member 4 -->
+                    <div class="team-card-wrapper animate-on-scroll" data-animation="fade-in-up" data-delay="600">
+                        <div class="team-card">
+                            <div class="team-card-inner">
+                                <!-- Front Side -->
+                                <div class="team-card-front">
+                                    <div class="member-photo">
+                                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80" alt="Michael Chen">
+                                    </div>
+                                    <h3>Michael Chen</h3>
+                                    <p class="member-role">Technology Lead</p>
+                                    <div class="card-hover-hint">
+                                        <span>Click to learn more</span>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                                
+                                <!-- Back Side -->
+                                <div class="team-card-back">
+                                    <h3>Michael Chen</h3>
+                                    <p class="member-role">Technology Lead</p>
+                                    <p class="member-bio">
+                                        Michael drives our technological innovations, ensuring our dispatch systems employ the latest advancements in logistics technology.
+                                    </p>
+                                    <div class="member-stats">
+                                        <div class="stat">
+                                            <span class="stat-value">8+</span>
+                                            <span class="stat-label">Patents</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="stat-value">99%</span>
+                                            <span class="stat-label">Uptime</span>
+                                        </div>
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-cta animate-on-scroll" data-animation="fade-in-up" data-delay="700">
+                    <p>Ready to work with our expert team? Contact us today!</p>
+                    <a href="#contact" class="btn btn-primary btn-glow">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section (Replacing Blog Section) -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+            
+            <div class="blur-shape shape-left"></div>
+            <div class="blur-shape shape-right"></div>
+            
+            <div class="container">
+                <h2 class="section-title animate-on-scroll" data-animation="fade-in-up">
+                    What Our Clients Say
+                    <span class="section-title-underline animate-underline"></span>
+                </h2>
+                
+                <p class="section-description animate-on-scroll" data-animation="fade-in-up" data-delay="200">
+                    Trusted by trucking professionals across the nation who rely on our dispatching services.
+                </p>
+                
+                <div class="testimonials-carousel-container animate-on-scroll" data-animation="fade-in-up" data-delay="300">
+                    <div class="testimonials-carousel">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-card">
+                            <div class="client-avatar">
+                                <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Robert Miller">
+                                <div class="avatar-glow"></div>
+                            </div>
+                            
+                            <div class="rating" data-rating="5">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            
+                            <div class="quote-container">
+                                <i class="quote-icon fas fa-quote-left"></i>
+                                <p class="quote-text">TruckPro has transformed my business by finding the best loads and handling all the paperwork. My revenue has increased by 30% since I started working with them.</p>
+                            </div>
+                            
+                            <div class="client-info">
+                                <h3 class="client-name">Robert Miller</h3>
+                                <p class="client-role">Owner-Operator, RM Trucking</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-card">
+                            <div class="client-avatar">
+                                <img src="https://images.unsplash.com/photo-1581803118522-7b72a50f7e9f?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Jennifer Lawrence">
+                                <div class="avatar-glow"></div>
+                            </div>
+                            
+                            <div class="rating" data-rating="5">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            
+                            <div class="quote-container">
+                                <i class="quote-icon fas fa-quote-left"></i>
+                                <p class="quote-text">The 24/7 support team at TruckPro is exceptional. They've helped me navigate through emergencies and always ensure I'm never left waiting for assistance.</p>
+                            </div>
+                            
+                            <div class="client-info">
+                                <h3 class="client-name">Jennifer Lawrence</h3>
+                                <p class="client-role">Fleet Manager, JL Logistics</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-card">
+                            <div class="client-avatar">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="David Thompson">
+                                <div class="avatar-glow"></div>
+                            </div>
+                            
+                            <div class="rating" data-rating="4">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            
+                            <div class="quote-container">
+                                <i class="quote-icon fas fa-quote-left"></i>
+                                <p class="quote-text">Their route optimization technology has saved me thousands in fuel costs. The team is professional, responsive, and truly understands the trucking industry.</p>
+                            </div>
+                            
+                            <div class="client-info">
+                                <h3 class="client-name">David Thompson</h3>
+                                <p class="client-role">Independent Driver</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-card">
+                            <div class="client-avatar">
+                                <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Maria Rodriguez">
+                                <div class="avatar-glow"></div>
+                            </div>
+                            
+                            <div class="rating" data-rating="5">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            
+                            <div class="quote-container">
+                                <i class="quote-icon fas fa-quote-left"></i>
+                                <p class="quote-text">Since partnering with TruckPro, our delivery times have improved by 25%. Their dispatching expertise has been invaluable to our growing fleet.</p>
+                            </div>
+                            
+                            <div class="client-info">
+                                <h3 class="client-name">Maria Rodriguez</h3>
+                                <p class="client-role">Operations Director, MR Transport</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Carousel Controls -->
+                    <div class="carousel-controls">
+                        <button class="carousel-arrow prev-arrow">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="carousel-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                            <span class="dot" data-index="3"></span>
+                        </div>
+                        <button class="carousel-arrow next-arrow">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Client Logos -->
+                <div class="client-logos animate-on-scroll" data-animation="fade-in-up" data-delay="400">
+                    <div class="logo-container">
+                        <img src="assets/images/client-logo-1.svg" alt="Client Logo 1" class="client-logo">
+                    </div>
+                    <div class="logo-container">
+                        <img src="assets/images/client-logo-2.svg" alt="Client Logo 2" class="client-logo">
+                    </div>
+                    <div class="logo-container">
+                        <img src="assets/images/client-logo-3.svg" alt="Client Logo 3" class="client-logo">
+                    </div>
+                    <div class="logo-container">
+                        <img src="assets/images/client-logo-4.svg" alt="Client Logo 4" class="client-logo">
+                    </div>
+                    <div class="logo-container">
+                        <img src="assets/images/client-logo-5.svg" alt="Client Logo 5" class="client-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section blog-section">
+            <div class="container">
+                <h2 class="section-title animate-on-scroll" data-animation="fade-in-up">
+                    Latest Insights
+                    <span class="section-title-underline"></span>
+                </h2>
+                
+                <p class="section-description animate-on-scroll" data-animation="fade-in-up" data-delay="200">
+                    Stay up-to-date with the latest trends and news in the logistics and trucking industry.
+                </p>
+                
+                <div class="blog-container">
+                    <!-- Blog Post 1 -->
+                    <div class="blog-post glass animate-on-scroll" data-animation="fade-in-up" data-delay="300">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80" alt="ELD Compliance">
+                            <div class="post-date">
+                                <span class="day">15</span>
+                                <span class="month">Jun</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="fas fa-user"></i> Admin</span>
+                                <span><i class="fas fa-tag"></i> Technology</span>
+                            </div>
+                            <h3>ELD Compliance: What Every Carrier Should Know</h3>
+                            <p>Understanding electronic logging device regulations and how they impact your operations in the modern trucking industry...</p>
+                            <a href="#" class="read-more">
+                                Read Article <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Post 2 -->
+                    <div class="blog-post glass animate-on-scroll" data-animation="fade-in-up" data-delay="400">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80" alt="Fuel Efficiency">
+                            <div class="post-date">
+                                <span class="day">03</span>
+                                <span class="month">Jun</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="fas fa-user"></i> Admin</span>
+                                <span><i class="fas fa-tag"></i> Efficiency</span>
+                            </div>
+                            <h3>5 Strategies to Improve Fuel Efficiency in Your Fleet</h3>
+                            <p>Practical tips and advanced techniques to reduce fuel consumption and increase profitability for truck operators...</p>
+                            <a href="#" class="read-more">
+                                Read Article <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Blog Post 3 -->
+                    <div class="blog-post glass animate-on-scroll" data-animation="fade-in-up" data-delay="500">
+                        <div class="post-image">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80" alt="Logistics Partnerships">
+                            <div class="post-date">
+                                <span class="day">22</span>
+                                <span class="month">May</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span><i class="fas fa-user"></i> Admin</span>
+                                <span><i class="fas fa-tag"></i> Business</span>
+                            </div>
+                            <h3>Building Strong Partnerships with Freight Brokers</h3>
+                            <p>How to establish and maintain profitable relationships with brokers to ensure a steady flow of high-paying loads...</p>
+                            <a href="#" class="read-more">
+                                Read Article <i class="fas fa-long-arrow-alt-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="blog-cta animate-on-scroll" data-animation="fade-in-up" data-delay="600">
+                    <a href="#" class="btn btn-outline">View All Articles</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="particles-bg">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+            
+            <div class="neon-shape shape-left"></div>
+            <div class="neon-shape shape-right"></div>
+            
+            <div class="container">
+                <div class="section-header animate-on-scroll" data-animation="fade-in-up">
+                    <h2 class="section-title">
+                        Get In Touch
+                        <span class="section-title-underline"></span>
+                    </h2>
+                    <p class="section-description">
+                        Ready to transform your logistics operations? Contact us today for premium truck dispatching services.
+                    </p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Left Column: Contact Info -->
+                    <div class="contact-info glass animate-on-scroll" data-animation="fade-in-right">
+                        <div class="contact-info-header">
+                            <h3 class="contact-info-title">Connect With Us</h3>
+                            <div class="horizontal-line"></div>
+                            <p>Have questions about our services? Ready to sign up? Our team is here to help you!</p>
+                        </div>
+                        
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Our Location</h4>
+                                    <p>123 Dispatch Avenue, Logistics City, CA 90210</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Phone Number</h4>
+                                    <p>(800) 555-TRUCK</p>
+                                    <p>24/7 Support Available</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Email Address</h4>
+                                    <p>info@truckpro-dispatch.com</p>
+                                    <p>support@truckpro-dispatch.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <div class="info-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="info-content">
+                                    <h4>Working Hours</h4>
+                                    <p>Monday-Friday: 8:00am - 8:00pm</p>
+                                    <p>Weekend: 24/7 Emergency Support</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-media">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column: Contact Form -->
+                    <div class="contact-form-wrapper animate-on-scroll" data-animation="fade-in-left">
+                        <form id="contact-form" class="contact-form glass">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <div class="input-wrapper">
+                                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                        <span class="focus-border"></span>
+                                        <div class="validation-message"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="input-wrapper">
+                                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                        <span class="focus-border"></span>
+                                        <div class="validation-message"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <div class="input-wrapper">
+                                        <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                                        <span class="focus-border"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="input-wrapper select-wrapper">
+                                        <select id="service" name="service" required>
+                                            <option value="" disabled selected>Select Service</option>
+                                            <option value="dispatch">Dispatching Services</option>
+                                            <option value="paperwork">Paperwork Processing</option>
+                                            <option value="invoicing">Invoicing & Payments</option>
+                                            <option value="route">Route Optimization</option>
+                                            <option value="other">Other Services</option>
+                                        </select>
+                                        <span class="focus-border"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="input-wrapper textarea-wrapper">
+                                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                                    <span class="focus-border"></span>
+                                    <div class="validation-message"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-submit">
+                                <button type="submit" class="submit-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                                    <span class="ripple-effect"></span>
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <!-- Success Message Modal -->
+                        <div class="success-message" id="success-message">
+                            <div class="success-content">
+                                <div class="success-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <h3>Message Sent Successfully!</h3>
+                                <p>Thank you for contacting us. We'll get back to you as soon as possible.</p>
+                                <button class="close-success-btn">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Google Map Section -->
+                <div class="map-container animate-on-scroll" data-animation="fade-in-up">
+                    <div class="map-wrapper glass">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.4355522599!2d-118.69191546029773!3d34.02016130653096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1596137434545!5m2!1sen!2s" 
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div class="map-overlay"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SVG Wave Bottom -->
+            <div class="wave-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                    <path class="wave-path-footer" d="M0,192L48,202.7C96,213,192,235,288,224C384,213,480,171,576,165.3C672,160,768,192,864,197.3C960,203,1056,181,1152,170.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                </svg>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path class="wave-path-footer-top" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,213.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+
+        <div class="floating-shapes footer-shapes">
+            <div class="shape f-shape1"></div>
+            <div class="shape f-shape2"></div>
+            <div class="shape f-shape3"></div>
+        </div>
+
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Column 1: Company Info -->
+                    <div class="footer-column company-info animate-footer" data-animation="fade-in-up">
+                        <div class="footer-logo">
+                            <span class="logo-text">TRUCK<span class="highlight">PRO</span></span>
+                            <div class="footer-logo-glow"></div>
+                        </div>
+                        <p class="company-description">
+                            Connecting carriers with shippers nationwide, providing reliable dispatch services to maximize efficiency and profitability.
+                        </p>
+                        <div class="copyright">
+                            <p>&copy; <span id="current-year"></span> TruckPro Dispatching. All rights reserved.</p>
+                        </div>
+                    </div>
+
+                    <!-- Column 2: Quick Links -->
+                    <div class="footer-column quick-links animate-footer" data-animation="fade-in-up" data-delay="100">
+                        <h3 class="footer-heading">Quick Links</h3>
+                        <div class="heading-underline"></div>
+                        <ul class="footer-links">
+                            <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="#pricing"><i class="fas fa-chevron-right"></i> Pricing</a></li>
+                            <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
+                            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Column 3: Social Media -->
+                    <div class="footer-column social-media-col animate-footer" data-animation="fade-in-up" data-delay="200">
+                        <h3 class="footer-heading">Connect With Us</h3>
+                        <div class="heading-underline"></div>
+                        <div class="footer-contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i> 123 Dispatch Avenue, Logistics City, CA 90210</p>
+                            <p><i class="fas fa-phone-alt"></i> (800) 555-TRUCK</p>
+                            <p><i class="fas fa-envelope"></i> info@truckpro-dispatch.com</p>
+                        </div>
+                        <div class="footer-social-links">
+                            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Column 4: Newsletter -->
+                    <div class="footer-column newsletter animate-footer" data-animation="fade-in-up" data-delay="300">
+                        <h3 class="footer-heading">Newsletter</h3>
+                        <div class="heading-underline"></div>
+                        <p class="newsletter-text">Subscribe to our newsletter for the latest industry news and updates.</p>
+                        <form class="newsletter-form" id="newsletter-form">
+                            <div class="newsletter-input-container">
+                                <input type="email" id="newsletter-email" placeholder="Your email address" required>
+                                <button type="submit" class="newsletter-submit">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </form>
+                        <div class="newsletter-confirmation" id="newsletter-confirmation">
+                            <p>Thank you for subscribing!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-nav">
+                        <a href="#">Privacy Policy</a>
+                        <span class="footer-divider">|</span>
+                        <a href="#">Terms of Service</a>
+                        <span class="footer-divider">|</span>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll to Top Button -->
+        <button id="scroll-to-top" class="scroll-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="60" viewBox="0 0 150 60">
+  <rect width="150" height="60" fill="none"/>
+  <circle cx="40" cy="30" r="15" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <circle cx="75" cy="30" r="15" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <circle cx="110" cy="30" r="15" fill="none" stroke="#aaaaaa" stroke-width="2"/>
+  <line x1="55" y1="30" x2="60" y2="30" stroke="#aaaaaa" stroke-width="2"/>
+  <line x1="90" y1="30" x2="95" y2="30" stroke="#aaaaaa" stroke-width="2"/>
+  <text x="75" y="48" font-family="Arial" font-size="10" fill="#aaaaaa" text-anchor="middle">GLOBAL TRANSPORT</text>
+</svg> 
